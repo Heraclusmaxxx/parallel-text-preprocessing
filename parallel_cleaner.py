@@ -57,7 +57,7 @@ def proc_func(chunk):
             "your",
         ]
     )
-    chunk[TARGET_COLUMN] = chunk[TARGET_COLUMN].apply(clean_func, stop_words)
+    chunk[TARGET_COLUMN] = chunk[TARGET_COLUMN].apply(clean_func, args=(stop_words,))
     return chunk
 
 
