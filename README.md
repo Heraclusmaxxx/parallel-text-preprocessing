@@ -25,8 +25,4 @@ For 50K rows on 4 cores, single-threaded execution slightly outperforms multipro
 ## 🛠️ Requirements & Usage
 
 1. Place your `IMDB Dataset.csv` in the same directory as the script.
-2. Run the script:
-   ```bash
-   python conc.py
-   ```
-3. The cleaned dataset will be exported to the same directory as `IMDB Dataset Cleaned.csv`.
+2. The cleaned dataset will be exported to the same directory as `IMDB Dataset Cleaned.csv`.
